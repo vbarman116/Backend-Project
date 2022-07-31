@@ -1,4 +1,4 @@
-import datetime
+# import datetime
 from sqlalchemy import DateTime, create_engine,Column, String, Float, Integer
 
 from sqlalchemy.orm import declarative_base,sessionmaker
@@ -27,7 +27,7 @@ class Table_Data(Base):
     robotLinearVelocity = Column(Float)
     robotAngularVelocity = Column(Float)
     areaName = Column(String)
-    time_created = Column(DateTime, default=datetime.datetime.now().strftime("%d %b %Y %I.%M %p"), nullable=False)
+#     time_created = Column(DateTime, default=datetime.datetime.now().strftime("%d %b %Y %I.%M %p"), nullable=False)
 
 
 print("Creating Table.....")
