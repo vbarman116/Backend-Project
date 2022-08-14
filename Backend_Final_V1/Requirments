@@ -1,0 +1,13 @@
+Project:
+Problem Statement : Build a REST API in FAST API that has 2 endpoints. 
+(Use PostgreSQL or InfluxDB as a Backend Database)
+
+Endpoint 1: Can receive continuous data in the following format:
+freshWaterLevel: float
+batteryLevel       : float
+robotLinearVelocity: float
+robotAngularVelocity: float
+areaName: str
+When it receives this data, it stores it in the database in the same structure along with a timestamp of when the data was received.
+
+Endpoint 2: We can use this endpoint to fetch data from the same Database between any two timestamps (say 11th Jan 2022 11.54 AM to 14th Feb 2022 11.33 PM)
