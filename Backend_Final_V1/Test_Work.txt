@@ -1,12 +1,4 @@
-Hi Vijay,
-
-Please find the topics to learn about and project to build before you join the internship. A good starting point is searching simple tutorials on Google and YouTube, and starting to browse through their official project and documentation pages.
-
-Topics:
-- FAST API
-- SQLAlchemy
-- PostgreSQL
-- InfluxDB
+Requirments
 
 Project:
 Problem Statement : Build a REST API in FAST API that has 2 endpoints. 
@@ -21,5 +13,3 @@ areaName: str
 When it receives this data, it stores it in the database in the same structure along with a timestamp of when the data was received.
 
 Endpoint 2: We can use this endpoint to fetch data from the same Database between any two timestamps (say 11th Jan 2022 11.54 AM to 14th Feb 2022 11.33 PM)
-
-Please let me know if you have any questions or queries. Feel free to reach out any time anywhere if you get stuck at any point or need any guidance.
